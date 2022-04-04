@@ -95,7 +95,7 @@ function mathOperation(arg1, arg2, operation){
             return div(arg1, arg2);
        	case 'умножение':
             return mult(arg1, arg2);
-   		}
+   	}
 }
 
 
