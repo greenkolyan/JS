@@ -84,7 +84,7 @@ function mult (a, b) {
     return a * b;
 }
 
-// №5
+// №6
 function mathOperation(arg1, arg2, operation){
     switch(operation){
        	case 'сложение':
@@ -98,4 +98,14 @@ function mathOperation(arg1, arg2, operation){
    	}
 }
 
-
+// №8
+function power(a, b) {
+	if (a == 0)
+		return 0;
+	else if (b == 0)
+		return 1;
+	else if (a < 0)
+        return power(1/b, -a);
+	else
+        return (b *  power(b, a-1));
+}
