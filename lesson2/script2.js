@@ -29,3 +29,73 @@ else {
     alert (x);
 }
 
+// №4
+let a = +prompt ('Введите число от 1 до 15');
+switch (a) {
+	case 1:
+        console.log(a++);
+	case 2:
+        console.log(a++);
+    case 3:
+        console.log(a++);
+    case 4:
+        console.log(a++);
+    case 5:
+        console.log(a++);
+    case 6:
+        console.log(a++);
+    case 7:
+        console.log(a++);
+    case 8:
+        console.log(a++);
+    case 9:
+        console.log(a++);
+    case 10:
+        console.log(a++);
+    case 11:
+        console.log(a++);
+    case 12:
+        console.log(a++);
+    case 13:
+        console.log(a++);
+    case 14:
+        console.log(a++);
+    case 15:
+        console.log(a++);
+}
+
+// №5
+var a = 2;
+var b = 3;
+
+function plus(a, b) {
+    return a + b;
+}
+
+function minus(a, b) {
+    return a - b;
+}
+
+function div (a, b) {
+    return a / b;
+}
+
+function mult (a, b) {
+    return a * b;
+}
+
+// №5
+function mathOperation(arg1, arg2, operation){
+    switch(operation){
+       	case 'сложение':
+            return plus(arg1, arg2);
+       	case 'вычитание':
+            return minus(arg1, arg2);
+        case 'деление':
+            return div(arg1, arg2);
+       	case 'умножение':
+            return mult(arg1, arg2);
+   		}
+}
+
+
